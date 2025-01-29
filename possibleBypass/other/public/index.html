@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proxy Client</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Proxy Client</h1>
+    <form id="proxyForm">
+      <label for="urlInput">Enter the URL to fetch:</label>
+      <input type="text" id="urlInput" placeholder="e.g. http://example.com">
+      <button type="submit">Send Request</button>
+    </form>
+    <div id="responseContainer">
+      <h3>Response:</h3>
+      <pre id="responseText"></pre>
+    </div>
+  </div>
+  <script src="client.js"></script>
+</body>
+</html>
